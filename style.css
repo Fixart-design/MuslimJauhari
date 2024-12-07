@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #8a0202; /* Warna hijau */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #8a0202;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.slider img {
+    width: 100%;
+    animation: slide 12s infinite;
+}
+
+@keyframes slide {
+    0%, 33% { transform: translateX(0); }
+    34%, 66% { transform: translateX(-100%); }
+    67%, 100% { transform: translateX(-200%); }
+}
+
+/* Button Styling */
+button {
+    background: #028a0f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #026b0c;
+}
+/* Styling Profile Section */
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr; /* Satu kolom untuk tata letak tengah */
+    text-align: center; /* Isi tengah */
+    gap: 1rem; /* Jarak antar baris */
+}
+
+.profile-label {
+    font-weight: bold;
+    color: #000; /* Warna hitam */
+    text-align: center;
+}
+
+.profile-value input {
+    width: 60%; /* Lebar textbox */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #023b04; /* Merah tua */
+    color: #fff; /* Teks putih */
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.profile-value input:focus {
+    outline: none; /* Hilangkan outline saat fokus */
+}
+/* Styling Riwayat Pendidikan */
+.profile-value textarea {
+    width: 60%; /* Sama seperti textbox */
+    height: 120px; /* Ketinggian textarea */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #02340d; /* Merah tua */
+    color: #fff; /* Teks putih */
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    resize: none; /* Nonaktifkan pengubahan ukuran */
+}
+
+.profile-value textarea:focus {
+    outline: none; /* Hilangkan outline saat fokus */
+}
+/* Styling Halaman Landing Page */
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    margin: 2rem auto;
+    width: 80%;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+main ul {
+    text-align: left;
+}
+
+main h3 {
+    text-align: left;
+}
+
+main h4 {
+    text-align: left;
+}
+
+button {
+    background-color: #09013e;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #0101a9;
+}
+/* Gaya untuk Gambar */
+figure {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+figure figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+/* Gaya untuk Video */
+video {
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
